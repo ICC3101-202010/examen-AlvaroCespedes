@@ -9,6 +9,10 @@ namespace Examen_Alvaro_Cespedes
         private string nombre;
         private string nacionalidad;
 
+        public Jugador()
+        {
+        }
+
         public Jugador(string nombre, string nacionalidad)
         {
             this.Nombre = nombre;

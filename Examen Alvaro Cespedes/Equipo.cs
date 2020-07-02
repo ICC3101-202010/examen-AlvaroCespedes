@@ -56,7 +56,10 @@ namespace Examen_Alvaro_Cespedes
         public override string ToString()
         {
             string var1 = "";
-            var1 += "jugadores: ";
+            var1 += "Nombre Equipo: ";
+            var1 += NombreEquipo;
+            var1 += ". ";
+            var1 += "Jugadores: ";
             foreach(Jugador x in Jugadores)
             {
                 var1 += x.Nombre;
