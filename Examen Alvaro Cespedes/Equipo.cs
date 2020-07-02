@@ -38,6 +38,8 @@ namespace Examen_Alvaro_Cespedes
             int contador = 0;
             foreach (Jugador x in jugadores)
             {
+                //Tomo la nacionalidad del primer jugador.
+                //Despues las comparo con las demas
                 if(contador == 0)
                 {
                     nacionalidad = x.Nacionalidad;

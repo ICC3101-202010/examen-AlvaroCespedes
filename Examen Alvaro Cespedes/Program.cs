@@ -78,7 +78,6 @@ namespace Examen_Alvaro_Cespedes
                             Console.WriteLine("Deben ser jugadores de la misma nacionalidad");
                             Console.WriteLine("Porfavor verificar");
                             Console.WriteLine("Se volverá al principio.");
-                            
                         }
                     }
 
