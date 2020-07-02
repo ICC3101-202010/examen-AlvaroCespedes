@@ -10,24 +10,27 @@ namespace Examen_Alvaro_Cespedes
         private bool tipoEquipo;
         private string medico;
         private string entrenador;
+        private string nombreEquipo;
 
         public Equipo()
         {
 
         }
 
-        public Equipo(List<Jugador> jugadores, bool tipoEquipo, string medico, string entrenador)
+        public Equipo(List<Jugador> jugadores, bool tipoEquipo, string medico, string entrenador, string nombreEquipo)
         {
             this.Jugadores = jugadores;
             this.TipoEquipo = tipoEquipo;
             this.Medico = medico;
             this.Entrenador = entrenador;
+            this.NombreEquipo = nombreEquipo;
         }
 
         public List<Jugador> Jugadores { get => jugadores; set => jugadores = value; }
         public bool TipoEquipo { get => tipoEquipo; set => tipoEquipo = value; }
         public string Medico { get => medico; set => medico = value; }
         public string Entrenador { get => entrenador; set => entrenador = value; }
+        public string NombreEquipo { get => nombreEquipo; set => nombreEquipo = value; }
 
         public bool CorroborarNacionalidad(Jugador jugador, List<Jugador> jugadores)
         {
